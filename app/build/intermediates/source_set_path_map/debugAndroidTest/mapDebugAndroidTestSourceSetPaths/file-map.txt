@@ -1,0 +1,6 @@
+com.kitolus.heightadjustment.test.app-androidTest-0 F:\HeightAdjustment\app\build\generated\res\resValues\androidTest\debug
+com.kitolus.heightadjustment.test.app-mergeDebugAndroidTestResources-1 F:\HeightAdjustment\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.kitolus.heightadjustment.test.app-mergeDebugAndroidTestResources-2 F:\HeightAdjustment\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.kitolus.heightadjustment.test.app-debugAndroidTest-3 F:\HeightAdjustment\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
+com.kitolus.heightadjustment.test.app-annotation-experimental-1.3.0-4 H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\3f500fb76e7cadb190075bdf381f0a8f\transformed\annotation-experimental-1.3.0\res
+com.kitolus.heightadjustment.test.app-core-1.5.0-5 H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\ba6dc6ed94b57561f01de54117d77631\transformed\core-1.5.0\res
