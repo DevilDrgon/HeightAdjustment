@@ -1,0 +1,100 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "b9f81151ef8679ddc25f73277a056903",
+    "entities": [
+      {
+        "tableName": "adjustments",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `carriageId` TEXT, `timestamp` INTEGER, `leftRollerBefore` INTEGER NOT NULL, `rightRollerBefore` INTEGER NOT NULL, `centerPlateBefore` INTEGER NOT NULL, `wearPlateBefore` INTEGER NOT NULL, `wearPlateAfter` INTEGER NOT NULL, `leftRollerAfter` INTEGER NOT NULL, `rightRollerAfter` INTEGER NOT NULL, `centerPlateAfter` INTEGER NOT NULL, `calculatedCenterPlate` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "carriageId",
+            "columnName": "carriageId",
+            "affinity": "TEXT",
+            "notNull": false
+          },
+          {
+            "fieldPath": "timestamp",
+            "columnName": "timestamp",
+            "affinity": "INTEGER",
+            "notNull": false
+          },
+          {
+            "fieldPath": "leftRollerBefore",
+            "columnName": "leftRollerBefore",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "rightRollerBefore",
+            "columnName": "rightRollerBefore",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "centerPlateBefore",
+            "columnName": "centerPlateBefore",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "wearPlateBefore",
+            "columnName": "wearPlateBefore",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "wearPlateAfter",
+            "columnName": "wearPlateAfter",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "leftRollerAfter",
+            "columnName": "leftRollerAfter",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "rightRollerAfter",
+            "columnName": "rightRollerAfter",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "centerPlateAfter",
+            "columnName": "centerPlateAfter",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "calculatedCenterPlate",
+            "columnName": "calculatedCenterPlate",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        },
+        "indices": [],
+        "foreignKeys": []
+      }
+    ],
+    "views": [],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'b9f81151ef8679ddc25f73277a056903')"
+    ]
+  }
+}

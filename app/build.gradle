@@ -1,0 +1,62 @@
+plugins {
+    alias(libs.plugins.android.application)
+}
+
+android {
+
+    namespace 'com.kitolus.heightadjustment'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId "com.kitolus.heightadjustment"
+        minSdk 30
+        targetSdk 35
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments += ["room.schemaLocation": "$projectDir/schemas".toString()]
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+    buildFeatures {
+        viewBinding true
+    }
+}
+
+dependencies {
+
+    compileOnly 'org.projectlombok:lombok:1.18.30'
+    annotationProcessor 'org.projectlombok:lombok:1.18.30'
+    annotationProcessor 'javax.xml.bind:jaxb-api:2.3.1'
+
+    implementation libs.gson
+    implementation libs.appcompat
+    implementation libs.material
+    implementation libs.constraintlayout
+    implementation libs.navigation.fragment
+    implementation libs.navigation.ui
+    implementation libs.lombok
+    implementation libs.room.common
+    implementation libs.room.runtime
+    implementation libs.protolite.well.known.types
+    implementation libs.testing
+    implementation libs.firebase.crashlytics.buildtools
+    testImplementation libs.junit
+    androidTestImplementation libs.ext.junit
+    androidTestImplementation libs.espresso.core
+    annotationProcessor libs.room.compiler
+}

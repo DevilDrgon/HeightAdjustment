@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 主色系 -->
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="secondary">#4CAF50</color>
+
+    <!-- 文本颜色 -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+
+    <!-- 背景和表面颜色 -->
+    <color name="white">#FFFFFF</color>
+    <color name="background">#FAFAFA</color>
+
+    <!-- 分隔线和边框 -->
+    <color name="divider_color">#BDBDBD</color>
+
+    <!-- 状态颜色 -->
+    <color name="error">#F44336</color>
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FFC107</color>
+</resources>
