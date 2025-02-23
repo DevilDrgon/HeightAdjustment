@@ -4,20 +4,53 @@
     <color name="primary">#2196F3</color>
     <color name="primary_dark">#1976D2</color>
     <color name="secondary">#4CAF50</color>
+    <color name="form_section_background">#30FFFFFF</color>
 
-    <!-- 文本颜色 -->
-    <color name="text_primary">#212121</color>
-    <color name="text_secondary">#757575</color>
+    <!-- 基础颜色 -->
+    <color name="colorOnSurface">#1C1B1E</color>
+    <color name="colorSurfaceVariant">#E7E0EC</color>
+    <color name="colorOutline">#79747E</color>
+
+    <!-- 日间模式 -->
+    <color name="on_surface">#1C1B1F</color>
+
 
     <!-- 背景和表面颜色 -->
     <color name="white">#FFFFFF</color>
-    <color name="background">#FAFAFA</color>
-
     <!-- 分隔线和边框 -->
     <color name="divider_color">#BDBDBD</color>
 
     <!-- 状态颜色 -->
-    <color name="error">#F44336</color>
-    <color name="success">#4CAF50</color>
-    <color name="warning">#FFC107</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>   <!-- 主色 -->
+    <color name="purple_700">#FF3700B3</color>   <!-- 主色深色变体 -->
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>     <!-- 强调色 -->
+
+    <!-- 官方推荐的标准颜色命名 -->
+    <color name="colorPrimary">@color/purple_500</color>
+    <color name="colorPrimaryVariant">@color/purple_700</color>
+    <color name="colorSecondary">@color/teal_200</color>
+    <color name="colorSecondaryVariant">@color/teal_700</color>
+    <color name="colorOnPrimary">#FFFFFFFF</color>  <!-- 主色上的内容颜色 -->
+    <color name="colorOnSecondary">#FF000000</color> <!-- 强调色上的内容颜色 -->
+
+    <!-- 背景/表面颜色 -->
+    <color name="background">#FFF5F5F5</color>
+    <color name="surface">#FFFFFFFF</color>
+
+    <!-- 文字颜色 -->
+    <color name="text_primary">#DE000000</color>
+    <color name="text_secondary">#8A000000</color>
+
+    <!-- 状态颜色 -->
+    <color name="error">#FFB00020</color>
+    <color name="success">#FF2E7D32</color>
+    <color name="warning">#FFFFC107</color>
+
+    <!-- 边界/分割线 -->
+    <color name="border">#1F000000</color>
+
+    <!-- 自定义下拉菜单颜色（可选项） -->
+    <color name="dropdown_stroke">#66000000</color>
 </resources>

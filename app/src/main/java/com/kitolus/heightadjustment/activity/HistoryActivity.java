@@ -120,19 +120,21 @@ public class HistoryActivity extends AppCompatActivity implements
     private void showDetailDialog(HistoryRecord record) {
         CalculationResult result = record.getResult();
         String details = getString(R.string.detail_template,
-                SDF.format(new Date(record.getTimestamp())),
-                record.getCarId(),
-                result.getWheelOriginal(),
-                result.getWheelAdjusted(),
-                result.getOriginalHeartPlate(),
-                result.getOriginalWearPlate(),
-                record.getAdjustedHeartPlate(),
-                record.getAdjustedWearPlate(),
-                result.getTotalHeightOriginal(),
-                result.getTotalHeightAdjusted(),
-                result.getExtraAdjustedWearPlate(),
-                result.getTotalHeightPlan()
+                SDF.format(new Date(record.getTimestamp())),  // %1$s -> 时间
+                record.getCarId(),                           // %2$s -> 车厢编号
+                record.getCarNum(),                          // %3$s -> 车厢位数（应当保持为String）
+                result.getWheelOriginal(),              // %5$.1f 原轮径
+                result.getWheelAdjusted(),              // %6$.1f 调整后轮径
+                result.getOriginalHeartPlate(),         // %7$.1f 原心盘
+                record.getAdjustedHeartPlate(),         // %8$.1f 调整后心盘
+                result.getOriginalWearPlate(),          // %9$.1f 原磨损板
+                record.getAdjustedWearPlate(),          // %10$.1f 调整后磨损板
+                result.getTotalHeightOriginal(),        // %11$.1f 调整前总高度
+                result.getTotalHeightAdjusted(),        // %12$.1f 调整后总高度
+                result.getExtraAdjustedWearPlate(),     // %13$.1f 修正高度
+                result.getTotalHeightPlan()             // %14$.1f 目标高度
         );
+
 
         TextView content = new TextView(this);
         content.setText(details);

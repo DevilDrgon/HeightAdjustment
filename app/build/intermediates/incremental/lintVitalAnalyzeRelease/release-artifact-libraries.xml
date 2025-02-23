@@ -1,5 +1,18 @@
 <libraries>
   <library
+      name="androidx.databinding:databinding-runtime:8.8.0@aar"
+      jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\6d08f2a8bc21946fe897120aa4ff41c5\transformed\databinding-runtime-8.8.0\jars\classes.jar"
+      resolved="androidx.databinding:databinding-runtime:8.8.0"
+      folder="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\6d08f2a8bc21946fe897120aa4ff41c5\transformed\databinding-runtime-8.8.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="androidx.databinding:viewbinding:8.8.0@aar"
       jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\3d01d1d090ec18c6ce06053fc2fe1f56\transformed\viewbinding-8.8.0\jars\classes.jar"
       resolved="androidx.databinding:viewbinding:8.8.0"
@@ -13,13 +26,26 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="androidx.databinding:databinding-adapters:8.8.0@aar"
+      jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\3459973d426a3360155dcdedf1c2e997\transformed\databinding-adapters-8.8.0\jars\classes.jar"
+      resolved="androidx.databinding:databinding-adapters:8.8.0"
+      folder="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\3459973d426a3360155dcdedf1c2e997\transformed\databinding-adapters-8.8.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.databinding:databinding-common:8.8.0@jar"
+      jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\modules-2\files-2.1\androidx.databinding\databinding-common\8.8.0\2be3530b78477835e69dce953b17adc1dbc5c6fa\databinding-common-8.8.0.jar"
+      resolved="androidx.databinding:databinding-common:8.8.0"/>
+  <library
       name="org.projectlombok:lombok:1.18.30@jar"
       jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\modules-2\files-2.1\org.projectlombok\lombok\1.18.30\f195ee86e6c896ea47a1d39defbe20eb59cd149d\lombok-1.18.30.jar"
       resolved="org.projectlombok:lombok:1.18.30"/>
-  <library
-      name="com.google.code.gson:gson:2.11.0@jar"
-      jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\modules-2\files-2.1\com.google.code.gson\gson\2.11.0\527175ca6d81050b53bdd4c457a6d6e017626b0e\gson-2.11.0.jar"
-      resolved="com.google.code.gson:gson:2.11.0"/>
   <library
       name="androidx.navigation:navigation-common:2.6.0@aar"
       jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\709a1a2132a963a1309c081175aa1f06\transformed\navigation-common-2.6.0\jars\classes.jar"
@@ -85,6 +111,10 @@
       symbolFile="R.txt"
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
+  <library
+      name="com.google.code.gson:gson:2.11.0@jar"
+      jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\modules-2\files-2.1\com.google.code.gson\gson\2.11.0\527175ca6d81050b53bdd4c457a6d6e017626b0e\gson-2.11.0.jar"
+      resolved="com.google.code.gson:gson:2.11.0"/>
   <library
       name="androidx.appcompat:appcompat:1.6.1@aar"
       jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\2ad2e02cb94d14ba26a70bd0a42661b0\transformed\appcompat-1.6.1\jars\classes.jar"
@@ -224,10 +254,10 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.appcompat:appcompat-resources:1.6.1@aar"
-      jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\14f48619d67883bc1c07cf3e82dd74ea\transformed\appcompat-resources-1.6.1\jars\classes.jar"
-      resolved="androidx.appcompat:appcompat-resources:1.6.1"
-      folder="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\14f48619d67883bc1c07cf3e82dd74ea\transformed\appcompat-resources-1.6.1"
+      name="androidx.coordinatorlayout:coordinatorlayout:1.1.0@aar"
+      jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\c154a11e8dc0fcef3c726358b0ee8b9c\transformed\coordinatorlayout-1.1.0\jars\classes.jar"
+      resolved="androidx.coordinatorlayout:coordinatorlayout:1.1.0"
+      folder="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\c154a11e8dc0fcef3c726358b0ee8b9c\transformed\coordinatorlayout-1.1.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -241,19 +271,6 @@
       jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\cb5ef72e16e6eb79249433268ae61b61\transformed\drawerlayout-1.1.1\jars\classes.jar"
       resolved="androidx.drawerlayout:drawerlayout:1.1.1"
       folder="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\cb5ef72e16e6eb79249433268ae61b61\transformed\drawerlayout-1.1.1"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="androidx.coordinatorlayout:coordinatorlayout:1.1.0@aar"
-      jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\c154a11e8dc0fcef3c726358b0ee8b9c\transformed\coordinatorlayout-1.1.0\jars\classes.jar"
-      resolved="androidx.coordinatorlayout:coordinatorlayout:1.1.0"
-      folder="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\c154a11e8dc0fcef3c726358b0ee8b9c\transformed\coordinatorlayout-1.1.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -293,6 +310,19 @@
       jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\90eb88259fad9cdfbfa2691db4f303bf\transformed\transition-1.4.1\jars\classes.jar"
       resolved="androidx.transition:transition:1.4.1"
       folder="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\90eb88259fad9cdfbfa2691db4f303bf\transformed\transition-1.4.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.appcompat:appcompat-resources:1.6.1@aar"
+      jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\14f48619d67883bc1c07cf3e82dd74ea\transformed\appcompat-resources-1.6.1\jars\classes.jar"
+      resolved="androidx.appcompat:appcompat-resources:1.6.1"
+      folder="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\14f48619d67883bc1c07cf3e82dd74ea\transformed\appcompat-resources-1.6.1"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -445,10 +475,6 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.lifecycle:lifecycle-common:2.6.1@jar"
-      jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-common\2.6.1\10f354fdb64868baecd67128560c5a0d6312c495\lifecycle-common-2.6.1.jar"
-      resolved="androidx.lifecycle:lifecycle-common:2.6.1"/>
-  <library
       name="androidx.lifecycle:lifecycle-livedata-core:2.6.1@aar"
       jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\840bf58d0d161510756c6198f4676fe7\transformed\lifecycle-livedata-core-2.6.1\jars\classes.jar"
       resolved="androidx.lifecycle:lifecycle-livedata-core:2.6.1"
@@ -475,18 +501,9 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.lifecycle:lifecycle-runtime:2.6.1@aar"
-      jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\818f1711d75e1912dc424d9b83564394\transformed\lifecycle-runtime-2.6.1\jars\classes.jar"
-      resolved="androidx.lifecycle:lifecycle-runtime:2.6.1"
-      folder="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\818f1711d75e1912dc424d9b83564394\transformed\lifecycle-runtime-2.6.1"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
+      name="androidx.lifecycle:lifecycle-common:2.6.1@jar"
+      jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\modules-2\files-2.1\androidx.lifecycle\lifecycle-common\2.6.1\10f354fdb64868baecd67128560c5a0d6312c495\lifecycle-common-2.6.1.jar"
+      resolved="androidx.lifecycle:lifecycle-common:2.6.1"/>
   <library
       name="androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.1@aar"
       jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\ed7aa00278513a7be7373e99f6fdfdb9\transformed\lifecycle-viewmodel-savedstate-2.6.1\jars\classes.jar"
@@ -518,6 +535,32 @@
       jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\b4bff5c2ac36d46025beb1550c124ef3\transformed\core-1.9.0\jars\classes.jar"
       resolved="androidx.core:core:1.9.0"
       folder="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\b4bff5c2ac36d46025beb1550c124ef3\transformed\core-1.9.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.lifecycle:lifecycle-runtime:2.6.1@aar"
+      jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\818f1711d75e1912dc424d9b83564394\transformed\lifecycle-runtime-2.6.1\jars\classes.jar"
+      resolved="androidx.lifecycle:lifecycle-runtime:2.6.1"
+      folder="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\818f1711d75e1912dc424d9b83564394\transformed\lifecycle-runtime-2.6.1"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.cardview:cardview:1.0.0@aar"
+      jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\c45bd9af367026b8fd65a06c885cb8bb\transformed\cardview-1.0.0\jars\classes.jar"
+      resolved="androidx.cardview:cardview:1.0.0"
+      folder="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\c45bd9af367026b8fd65a06c885cb8bb\transformed\cardview-1.0.0"
       manifest="AndroidManifest.xml"
       resFolder="res"
       assetsFolder="assets"
@@ -566,19 +609,6 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
-      name="androidx.cardview:cardview:1.0.0@aar"
-      jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\c45bd9af367026b8fd65a06c885cb8bb\transformed\cardview-1.0.0\jars\classes.jar"
-      resolved="androidx.cardview:cardview:1.0.0"
-      folder="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\c45bd9af367026b8fd65a06c885cb8bb\transformed\cardview-1.0.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
       name="androidx.sqlite:sqlite-framework:2.4.0@aar"
       jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\c5fc08d16ab023421c2dd21ac54eecb9\transformed\sqlite-framework-2.4.0\jars\classes.jar"
       resolved="androidx.sqlite:sqlite-framework:2.4.0"
@@ -605,6 +635,23 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="androidx.arch.core:core-runtime:2.2.0@aar"
+      jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\f01d956b03df80cc6af2f05f83620f47\transformed\core-runtime-2.2.0\jars\classes.jar"
+      resolved="androidx.arch.core:core-runtime:2.2.0"
+      folder="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\f01d956b03df80cc6af2f05f83620f47\transformed\core-runtime-2.2.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
+      name="androidx.arch.core:core-common:2.2.0@jar"
+      jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\modules-2\files-2.1\androidx.arch.core\core-common\2.2.0\5e1b8b81dfd5f52c56a8d53b18ca759c19a301f3\core-common-2.2.0.jar"
+      resolved="androidx.arch.core:core-common:2.2.0"/>
+  <library
       name="androidx.versionedparcelable:versionedparcelable:1.1.1@aar"
       jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\b36f02cc6f135188c3d913d8d5ecd502\transformed\versionedparcelable-1.1.1\jars\classes.jar"
       resolved="androidx.versionedparcelable:versionedparcelable:1.1.1"
@@ -625,36 +672,6 @@
       name="androidx.collection:collection:1.1.0@jar"
       jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\modules-2\files-2.1\androidx.collection\collection\1.1.0\1f27220b47669781457de0d600849a5de0e89909\collection-1.1.0.jar"
       resolved="androidx.collection:collection:1.1.0"/>
-  <library
-      name="androidx.arch.core:core-runtime:2.2.0@aar"
-      jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\f01d956b03df80cc6af2f05f83620f47\transformed\core-runtime-2.2.0\jars\classes.jar"
-      resolved="androidx.arch.core:core-runtime:2.2.0"
-      folder="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\f01d956b03df80cc6af2f05f83620f47\transformed\core-runtime-2.2.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
-  <library
-      name="androidx.arch.core:core-common:2.2.0@jar"
-      jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\modules-2\files-2.1\androidx.arch.core\core-common\2.2.0\5e1b8b81dfd5f52c56a8d53b18ca759c19a301f3\core-common-2.2.0.jar"
-      resolved="androidx.arch.core:core-common:2.2.0"/>
-  <library
-      name="androidx.interpolator:interpolator:1.0.0@aar"
-      jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\e1ecea6cad855550a21e3ef5f5b7dacd\transformed\interpolator-1.0.0\jars\classes.jar"
-      resolved="androidx.interpolator:interpolator:1.0.0"
-      folder="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\e1ecea6cad855550a21e3ef5f5b7dacd\transformed\interpolator-1.0.0"
-      manifest="AndroidManifest.xml"
-      resFolder="res"
-      assetsFolder="assets"
-      lintJar="lint.jar"
-      publicResources="public.txt"
-      symbolFile="R.txt"
-      externalAnnotations="annotations.zip"
-      proguardRules="proguard.txt"/>
   <library
       name="androidx.documentfile:documentfile:1.0.0@aar"
       jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\69ebe444664706389daa823518c2a205\transformed\documentfile-1.0.0\jars\classes.jar"
@@ -695,13 +712,22 @@
       externalAnnotations="annotations.zip"
       proguardRules="proguard.txt"/>
   <library
+      name="androidx.interpolator:interpolator:1.0.0@aar"
+      jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\e1ecea6cad855550a21e3ef5f5b7dacd\transformed\interpolator-1.0.0\jars\classes.jar"
+      resolved="androidx.interpolator:interpolator:1.0.0"
+      folder="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\e1ecea6cad855550a21e3ef5f5b7dacd\transformed\interpolator-1.0.0"
+      manifest="AndroidManifest.xml"
+      resFolder="res"
+      assetsFolder="assets"
+      lintJar="lint.jar"
+      publicResources="public.txt"
+      symbolFile="R.txt"
+      externalAnnotations="annotations.zip"
+      proguardRules="proguard.txt"/>
+  <library
       name="androidx.annotation:annotation:1.3.0@jar"
       jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\modules-2\files-2.1\androidx.annotation\annotation\1.3.0\21f49f5f9b85fc49de712539f79123119740595\annotation-1.3.0.jar"
       resolved="androidx.annotation:annotation:1.3.0"/>
-  <library
-      name="com.google.errorprone:error_prone_annotations:2.27.0@jar"
-      jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.27.0\91b2c29d8a6148b5e2e4930f070d4840e2e48e34\error_prone_annotations-2.27.0.jar"
-      resolved="com.google.errorprone:error_prone_annotations:2.27.0"/>
   <library
       name="androidx.annotation:annotation-experimental:1.3.0@aar"
       jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\3f500fb76e7cadb190075bdf381f0a8f\transformed\annotation-experimental-1.3.0\jars\classes.jar"
@@ -743,6 +769,10 @@
       name="org.jetbrains:annotations:13.0@jar"
       jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\modules-2\files-2.1\org.jetbrains\annotations\13.0\919f0dfe192fb4e063e7dacadee7f8bb9a2672a9\annotations-13.0.jar"
       resolved="org.jetbrains:annotations:13.0"/>
+  <library
+      name="com.google.errorprone:error_prone_annotations:2.27.0@jar"
+      jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\modules-2\files-2.1\com.google.errorprone\error_prone_annotations\2.27.0\91b2c29d8a6148b5e2e4930f070d4840e2e48e34\error_prone_annotations-2.27.0.jar"
+      resolved="com.google.errorprone:error_prone_annotations:2.27.0"/>
   <library
       name="androidx.resourceinspection:resourceinspection-annotation:1.0.1@jar"
       jars="H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\modules-2\files-2.1\androidx.resourceinspection\resourceinspection-annotation\1.0.1\8c21f8ff5d96d5d52c948707f7e4d6ca6773feef\resourceinspection-annotation-1.0.1.jar"

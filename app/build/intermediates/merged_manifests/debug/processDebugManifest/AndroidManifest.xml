@@ -2,11 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.kitolus.heightadjustment"
     android:versionCode="1"
-    android:versionName="1.0" > <!-- 如果需要存储权限（根据DataUtils的实现决定） -->
-    <!--
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    -->
+    android:versionName="1.0" >
+
     <uses-sdk
         android:minSdkVersion="30"
         android:targetSdkVersion="35" />
@@ -31,7 +28,7 @@
 
         <!-- 主Activity -->
         <activity
-            android:name="com.kitolus.heightadjustment.MainActivity"
+            android:name="com.kitolus.heightadjustment.activity.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -40,15 +37,20 @@
             </intent-filter>
         </activity>
 
+        <!-- 原主界面 -->
+        <activity
+            android:name="com.kitolus.heightadjustment.activity.CalculationActivity"
+            android:exported="false" />
+
         <!-- 历史记录Activity -->
         <activity
-            android:name="com.kitolus.heightadjustment.HistoryActivity"
+            android:name="com.kitolus.heightadjustment.activity.HistoryActivity"
             android:exported="false"
             android:label="@string/history_title"
-            android:parentActivityName="com.kitolus.heightadjustment.MainActivity" >
+            android:parentActivityName="com.kitolus.heightadjustment.activity.MainActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value=".activity.MainActivity" />
         </activity>
 
         <service

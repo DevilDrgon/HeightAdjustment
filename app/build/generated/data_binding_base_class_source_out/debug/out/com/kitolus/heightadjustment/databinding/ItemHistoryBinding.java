@@ -24,7 +24,10 @@ public final class ItemHistoryBinding implements ViewBinding {
   public final ImageButton btnDelete;
 
   @NonNull
-  public final TextView tvCarId;
+  public final TextView tvCarNum;
+
+  @NonNull
+  public final TextView tvExtra;
 
   @NonNull
   public final TextView tvHeartPlate;
@@ -33,10 +36,12 @@ public final class ItemHistoryBinding implements ViewBinding {
   public final TextView tvTimestamp;
 
   private ItemHistoryBinding(@NonNull CardView rootView, @NonNull ImageButton btnDelete,
-      @NonNull TextView tvCarId, @NonNull TextView tvHeartPlate, @NonNull TextView tvTimestamp) {
+      @NonNull TextView tvCarNum, @NonNull TextView tvExtra, @NonNull TextView tvHeartPlate,
+      @NonNull TextView tvTimestamp) {
     this.rootView = rootView;
     this.btnDelete = btnDelete;
-    this.tvCarId = tvCarId;
+    this.tvCarNum = tvCarNum;
+    this.tvExtra = tvExtra;
     this.tvHeartPlate = tvHeartPlate;
     this.tvTimestamp = tvTimestamp;
   }
@@ -74,9 +79,15 @@ public final class ItemHistoryBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.tvCarId;
-      TextView tvCarId = ViewBindings.findChildViewById(rootView, id);
-      if (tvCarId == null) {
+      id = R.id.tvCarNum;
+      TextView tvCarNum = ViewBindings.findChildViewById(rootView, id);
+      if (tvCarNum == null) {
+        break missingId;
+      }
+
+      id = R.id.tvExtra;
+      TextView tvExtra = ViewBindings.findChildViewById(rootView, id);
+      if (tvExtra == null) {
         break missingId;
       }
 
@@ -92,7 +103,7 @@ public final class ItemHistoryBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ItemHistoryBinding((CardView) rootView, btnDelete, tvCarId, tvHeartPlate,
+      return new ItemHistoryBinding((CardView) rootView, btnDelete, tvCarNum, tvExtra, tvHeartPlate,
           tvTimestamp);
     }
     String missingId = rootView.getResources().getResourceName(id);

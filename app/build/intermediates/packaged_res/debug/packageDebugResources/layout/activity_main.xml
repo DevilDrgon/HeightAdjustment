@@ -1,129 +1,21 @@
-<?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:padding="16dp"
-    tools:context=".MainActivity">
+
+                                                   
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context=".activity.MainActivity" android:tag="layout/activity_main_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
 
-        <!-- 车厢编号 -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/car_id_label"
-            android:textSize="16sp"/>
-
-        <EditText
-            android:id="@+id/etCarId"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="text"/>
-
-        <!-- 轮径原始高度 -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/wheel_label"
-            android:textSize="16sp"
-            android:layout_marginTop="8dp"/>
-
-        <EditText
-            android:id="@+id/etWheelOriginal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="numberDecimal"/>
-
-        <!-- 轮径调整高度 -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/wheel_adjusted_label"
-            android:textSize="16sp"
-            android:layout_marginTop="8dp"/>
-
-        <EditText
-            android:id="@+id/etWheelAdjusted"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="numberDecimal"/>
-
-        <!-- 车钩原始高度 -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/originalTotalHeight"
-            android:textSize="16sp"
-            android:layout_marginTop="8dp"/>
-
-        <EditText
-            android:id="@+id/etOriginalTotalHeight"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="numberDecimal"/>
-
-        <!-- 心盘原始高度 -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/heart_plate_original_label"
-            android:textSize="16sp"
-            android:layout_marginTop="8dp"/>
-
-        <EditText
-            android:id="@+id/etHeartPlateOriginal"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="numberDecimal"/>
-
-        <!-- 磨耗板厚度 -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/wear_plate_label"
-            android:textSize="16sp"
-            android:layout_marginTop="8dp"/>
-
-        <EditText
-            android:id="@+id/etWearPlate"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="numberDecimal"/>
-
-        <!-- 间隙值 -->
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/gap_label"
-            android:textSize="16sp"
-            android:layout_marginTop="8dp"/>
-
-        <EditText
-            android:id="@+id/etGap"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:inputType="numberDecimal"/>
-
-        <!-- 计算按钮 -->
         <Button
-            android:id="@+id/btnCalculate"
-            android:layout_width="match_parent"
+            android:id="@+id/btnModel17"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/btn_calculate"
-            android:layout_marginTop="16dp"/>
-
-        <!-- 查看历史按钮 -->
-        <Button
-            android:id="@+id/btnViewHistory"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/btn_view_history"
-            android:layout_marginTop="8dp"/>
+            android:text="17号车型"
+            android:textSize="24sp"
+            android:padding="32dp" />
 
     </LinearLayout>
-</ScrollView>
+         

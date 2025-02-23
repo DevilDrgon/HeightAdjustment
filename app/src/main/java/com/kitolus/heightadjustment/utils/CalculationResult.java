@@ -15,6 +15,7 @@ public class CalculationResult {
     private final double totalHeightPlan;
     private final double wheelOriginal;
     private final double wheelAdjusted;
+    private final String carNum;
 
     public CalculationResult(double adjustedHeartPlate,
                              double adjustedWearPlate,
@@ -25,7 +26,8 @@ public class CalculationResult {
                              double originalHeartPlate,
                              double originalWearPlate,
                              double wheelOriginal,
-                             double wheelAdjusted) {
+                             double wheelAdjusted,
+                             String carNum) {
         this.adjustedHeartPlate = adjustedHeartPlate;
         this.adjustedWearPlate = adjustedWearPlate;
         this.extraAdjustedWearPlate = extraAdjustedWearPlate;
@@ -36,6 +38,7 @@ public class CalculationResult {
         this.originalWearPlate = originalWearPlate;
         this.wheelOriginal = wheelOriginal;
         this.wheelAdjusted = wheelAdjusted;
+        this.carNum = carNum;
     }
 
 }

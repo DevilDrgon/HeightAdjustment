@@ -22,6 +22,11 @@
             </intent-filter>
         </activity>
 
+        <!-- 原主界面 -->
+        <activity
+            android:name=".activity.CalculationActivity"
+            android:exported="false" />
+
         <!-- 历史记录Activity -->
         <activity
             android:name=".activity.HistoryActivity"

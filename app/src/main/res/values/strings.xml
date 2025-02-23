@@ -2,26 +2,27 @@
     <string name="app_name">车钩高度调整作业</string>
 
     <!-- 输入字段标签 -->
-    <string name="wheel_label">轮径原始高度（mm）</string>
-    <string name="wheel_adjusted_label">轮径调整高度（mm）</string>
+    <string name="wheel_label">轮径原始数值（mm）</string>
+    <string name="wheel_adjusted_label">轮径调整数值（mm）</string>
     <string name="originalTotalHeight">原钩高高度（mm）</string>
-    <string name="heart_plate_original_label">原心盘高度（mm）</string>
-    <string name="wear_plate_label">磨损盘厚度（mm）</string>
+    <string name="heart_plate_original_label">原心盘厚度（mm）</string>
+    <string name="wear_plate_label">磨耗板厚度（mm）</string>
     <string name="gap_label">间隙值（mm）</string>
 
     <!-- 按钮文字 -->
+    <string name="model_17">17号车型</string>
     <string name="btn_calculate">计算并保存</string>
     <string name="btn_view_history">查看历史记录</string>
 
     <!-- 错误提示 -->
     <string name="error_car_id_empty">请输入车厢编号</string>
-    <string name="error_wheel_original">请输入轮径原始高度</string>
-    <string name="error_wheel_adjusted">请输入轮径调整高度</string>
+    <string name="error_wheel_original">请输入轮径原始直径</string>
+    <string name="error_wheel_adjusted">请输入轮径调整直径</string>
     <string name="error_original_height">请输入原钩高高度</string>
-    <string name="error_heart_plate_original">请输入原心盘高度</string>
-    <string name="error_wear_plate">请输入磨损板厚度</string>
+    <string name="error_heart_plate_original">请输入原心盘厚度</string>
+    <string name="error_wear_plate">请输入磨耗板厚度</string>
     <string name="error_gap">请输入间隙值</string>
-    <string name="error_heart_plate_range">心盘高度必须在%1$.0f-%2$.0f毫米之间</string>
+    <string name="error_heart_plate_range">心盘厚度必须在%1$.0f-%2$.0f毫米之间</string>
     <string name="error_total_adjusted_range">调整后总高度超出范围（%1$.0f-%2$.0f毫米）</string>
     <string name="error_calculated_heart_plate">计算心盘高度超出安全范围</string>
 
@@ -33,18 +34,33 @@
     <string name="history_detail">历史记录详情</string>
     <string name="close">关闭</string>
     <string name="time_label">时间：%s</string>
-    <string name="car_id_label">车厢编号：</string>
-    <string name="adjusted_heart_label">调整后心盘高度：%.1f mm</string>
+    <string name="car_id_position">车钩位置：</string>
+    <string name="car_id_label">编号：</string>
+    <string name="car_id_num">位数：</string>
+    <string name="adjusted_heart_label">调整后心盘厚度：%.1f mm</string>
     <string name="original_total_label">原高度：%.1f mm</string>
     <string name="wear_plate_value">磨损板厚度：%.1f mm</string>
     <string name="gap_value">间隙值：%.1f mm</string>
     <string name="field_required">输入空缺</string>
     <string name="delete">删除</string>
-    <string name="detail_template">时间：%s\n\n车厢编号：%s\n\n轮径原始高度：%.1f mm\n轮径调整高度：%.1f mm\n调整前心盘高度：%.1f mm\n调整前磨损盘高度：%.1f mm\n调整后心盘高度：%.1f mm\n调整后磨损盘高度：%.1f mm\n\n调整前高度：%.1f mm\n调整后高度：%.1f mm\n调整后修正高度：%.1f mm\n目标高度：%.1f mm</string>
+    <string name="detail_template">
+            时间：%s\n\n
+            编号：%s\n
+            位数：%s\n
+            调整前后轮径数值：%.1f mm（%.1f mm）\n
+            调整前后心盘厚度：%.1f mm（%.1f mm）\n
+            调整前后磨耗板厚度：%.1f mm（%.1f mm）\n\n
+            调整前后高度：%.1f mm（%.1f mm）\n
+            调整后修正高度：%.1f mm\n
+            目标高度：%.1f mm</string>
     <string name="confirm_delete">确认删除？</string>
     <string name="delete_confirmation">确定要删除这条记录吗？</string>
     <string name="delete_success">删除成功</string>
     <string name="delete_failed">删除失败</string>
     <string name="cancel">取消</string>
+    <string-array name="car_position_options">
+        <item>前车钩</item>
+        <item>后车钩</item>
+    </string-array>
 
 </resources>

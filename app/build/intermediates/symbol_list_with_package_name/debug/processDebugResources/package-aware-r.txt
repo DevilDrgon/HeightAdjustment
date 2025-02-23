@@ -85,6 +85,7 @@ animator nav_default_enter_anim
 animator nav_default_exit_anim
 animator nav_default_pop_enter_anim
 animator nav_default_pop_exit_anim
+array car_position_options
 attr SharedValue
 attr SharedValueId
 attr action
@@ -1399,6 +1400,7 @@ color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
 color background_material_light
+color border
 color bright_foreground_disabled_material_dark
 color bright_foreground_disabled_material_light
 color bright_foreground_inverse_material_dark
@@ -1411,6 +1413,15 @@ color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
+color colorOnPrimary
+color colorOnSecondary
+color colorOnSurface
+color colorOutline
+color colorPrimary
+color colorPrimaryVariant
+color colorSecondary
+color colorSecondaryVariant
+color colorSurfaceVariant
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -1454,11 +1465,13 @@ color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
 color dim_foreground_material_light
 color divider_color
+color dropdown_stroke
 color error
 color error_color_material_dark
 color error_color_material_light
 color foreground_material_dark
 color foreground_material_light
+color form_section_background
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color m3_appbar_overlay_color
@@ -2087,6 +2100,7 @@ color mtrl_textinput_focused_box_stroke_color
 color mtrl_textinput_hovered_box_stroke_color
 color notification_action_color_filter
 color notification_icon_bg_color
+color on_surface
 color primary
 color primary_dark
 color primary_dark_material_dark
@@ -2097,6 +2111,9 @@ color primary_text_default_material_dark
 color primary_text_default_material_light
 color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
+color purple_200
+color purple_500
+color purple_700
 color ripple_material_dark
 color ripple_material_light
 color secondary
@@ -2105,12 +2122,15 @@ color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
 color secondary_text_disabled_material_light
 color success
+color surface
 color switch_thumb_disabled_material_dark
 color switch_thumb_disabled_material_light
 color switch_thumb_material_dark
 color switch_thumb_material_light
 color switch_thumb_normal_material_dark
 color switch_thumb_normal_material_light
+color teal_200
+color teal_700
 color text_primary
 color text_secondary
 color tooltip_background_dark
@@ -3002,13 +3022,11 @@ drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
-drawable button_background
 drawable design_fab_background
 drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
-drawable divider
 drawable edittext_background
 drawable ic_arrow_back_black_24
 drawable ic_clear_black_24
@@ -3198,6 +3216,7 @@ id bounceEnd
 id bounceStart
 id btnCalculate
 id btnDelete
+id btnModel17
 id btnViewHistory
 id buttonPanel
 id cache_measures
@@ -3238,6 +3257,7 @@ id currentState
 id custom
 id customPanel
 id cut
+id dataBinding
 id date_picker_actions
 id decelerate
 id decelerateAndComplete
@@ -3281,6 +3301,7 @@ id endToStart
 id enterAlways
 id enterAlwaysCollapsed
 id etCarId
+id etCarNum
 id etGap
 id etHeartPlateOriginal
 id etOriginalTotalHeight
@@ -3431,6 +3452,8 @@ id notification_main_column
 id notification_main_column_container
 id off
 id on
+id onAttachStateChangeListener
+id onDateChanged
 id onInterceptTouchReturnSwipe
 id open_search_bar_text_view
 id open_search_view_background
@@ -3563,6 +3586,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textWatcher
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3588,7 +3612,8 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
-id tvCarId
+id tvCarNum
+id tvExtra
 id tvHeartPlate
 id tvTimestamp
 id unchecked
@@ -3729,6 +3754,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_calculation
 layout activity_history
 layout activity_main
 layout custom_dialog
@@ -3853,6 +3879,8 @@ string btn_calculate
 string btn_view_history
 string cancel
 string car_id_label
+string car_id_num
+string car_id_position
 string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
@@ -3928,6 +3956,7 @@ string material_timepicker_minute
 string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
+string model_17
 string mtrl_badge_numberless_content_description
 string mtrl_checkbox_button_icon_path_checked
 string mtrl_checkbox_button_icon_path_group_name
@@ -4567,6 +4596,7 @@ style Theme_Design_Light
 style Theme_Design_Light_BottomSheetDialog
 style Theme_Design_Light_NoActionBar
 style Theme_Design_NoActionBar
+style Theme_HeightAdjustment
 style Theme_Material3_Dark
 style Theme_Material3_Dark_BottomSheetDialog
 style Theme_Material3_Dark_Dialog

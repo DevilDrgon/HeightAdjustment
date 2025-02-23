@@ -1,11 +1,11 @@
 [
     {
-        "merged": "H:\\download\\gradle-8.6-bin\\gradle-8.6\\repository\\daemon\\8.10.2\\com.kitolus.heightadjustment.app-release-4:\\layout_activity_main.xml.flat",
-        "source": "H:\\download\\gradle-8.6-bin\\gradle-8.6\\repository\\daemon\\8.10.2\\com.kitolus.heightadjustment.app-main-5:\\layout\\activity_main.xml"
+        "merged": "H:\\download\\gradle-8.6-bin\\gradle-8.6\\repository\\daemon\\8.10.2\\com.kitolus.heightadjustment.app-release-4:\\layout_activity_calculation.xml.flat",
+        "source": "H:\\download\\gradle-8.6-bin\\gradle-8.6\\repository\\daemon\\8.10.2\\com.kitolus.heightadjustment.app-main-5:\\layout\\activity_calculation.xml"
     },
     {
-        "merged": "H:\\download\\gradle-8.6-bin\\gradle-8.6\\repository\\daemon\\8.10.2\\com.kitolus.heightadjustment.app-release-4:\\drawable_divider.xml.flat",
-        "source": "H:\\download\\gradle-8.6-bin\\gradle-8.6\\repository\\daemon\\8.10.2\\com.kitolus.heightadjustment.app-main-5:\\drawable\\divider.xml"
+        "merged": "H:\\download\\gradle-8.6-bin\\gradle-8.6\\repository\\daemon\\8.10.2\\com.kitolus.heightadjustment.app-release-4:\\layout_activity_main.xml.flat",
+        "source": "H:\\download\\gradle-8.6-bin\\gradle-8.6\\repository\\daemon\\8.10.2\\com.kitolus.heightadjustment.app-main-5:\\layout\\activity_main.xml"
     },
     {
         "merged": "H:\\download\\gradle-8.6-bin\\gradle-8.6\\repository\\daemon\\8.10.2\\com.kitolus.heightadjustment.app-release-4:\\layout_item_history.xml.flat",
@@ -16,16 +16,20 @@
         "source": "H:\\download\\gradle-8.6-bin\\gradle-8.6\\repository\\daemon\\8.10.2\\com.kitolus.heightadjustment.app-main-5:\\mipmap\\ic_launcher_round.jpg"
     },
     {
-        "merged": "H:\\download\\gradle-8.6-bin\\gradle-8.6\\repository\\daemon\\8.10.2\\com.kitolus.heightadjustment.app-release-4:\\drawable_button_background.xml.flat",
-        "source": "H:\\download\\gradle-8.6-bin\\gradle-8.6\\repository\\daemon\\8.10.2\\com.kitolus.heightadjustment.app-main-5:\\drawable\\button_background.xml"
-    },
-    {
         "merged": "H:\\download\\gradle-8.6-bin\\gradle-8.6\\repository\\daemon\\8.10.2\\com.kitolus.heightadjustment.app-release-4:\\drawable_edittext_background.xml.flat",
         "source": "H:\\download\\gradle-8.6-bin\\gradle-8.6\\repository\\daemon\\8.10.2\\com.kitolus.heightadjustment.app-main-5:\\drawable\\edittext_background.xml"
     },
     {
+        "merged": "com.kitolus.heightadjustment.app-release-4:/layout_activity_calculation.xml.flat",
+        "source": "com.kitolus.heightadjustment.app-main-5:/layout/activity_calculation.xml"
+    },
+    {
         "merged": "H:\\download\\gradle-8.6-bin\\gradle-8.6\\repository\\daemon\\8.10.2\\com.kitolus.heightadjustment.app-release-4:\\mipmap_ic_launcher.jpg.flat",
         "source": "H:\\download\\gradle-8.6-bin\\gradle-8.6\\repository\\daemon\\8.10.2\\com.kitolus.heightadjustment.app-main-5:\\mipmap\\ic_launcher.jpg"
+    },
+    {
+        "merged": "com.kitolus.heightadjustment.app-release-4:/mipmap_ic_launcher.jpg.flat",
+        "source": "com.kitolus.heightadjustment.app-main-5:/mipmap/ic_launcher.jpg"
     },
     {
         "merged": "H:\\download\\gradle-8.6-bin\\gradle-8.6\\repository\\daemon\\8.10.2\\com.kitolus.heightadjustment.app-release-4:\\layout_activity_history.xml.flat",
@@ -34,5 +38,9 @@
     {
         "merged": "com.kitolus.heightadjustment.app-release-4:/layout_item_history.xml.flat",
         "source": "com.kitolus.heightadjustment.app-main-5:/layout/item_history.xml"
+    },
+    {
+        "merged": "com.kitolus.heightadjustment.app-release-4:/mipmap_ic_launcher_round.jpg.flat",
+        "source": "com.kitolus.heightadjustment.app-main-5:/mipmap/ic_launcher_round.jpg"
     }
 ]

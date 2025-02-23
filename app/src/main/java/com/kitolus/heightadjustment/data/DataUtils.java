@@ -76,6 +76,7 @@ public class DataUtils {
         resultJson.put("originalWearPlate", result.getOriginalWearPlate());
         resultJson.put("wheelOriginal", result.getWheelOriginal());
         resultJson.put("wheelAdjusted", result.getWheelAdjusted());
+        resultJson.put("carNum", result.getCarNum());
         return resultJson;
     }
 
@@ -116,7 +117,8 @@ public class DataUtils {
                         resultJson.getDouble("originalHeartPlate"),
                         resultJson.getDouble("originalWearPlate"),
                         resultJson.getDouble("wheelOriginal"),
-                        resultJson.getDouble("wheelAdjusted")
+                        resultJson.getDouble("wheelAdjusted"),
+                        resultJson.getString("carNum")
                 );
 
                 HistoryRecord record = new HistoryRecord(
@@ -125,7 +127,8 @@ public class DataUtils {
                         recordJson.getDouble(KEY_ADJUSTED_HEART_PLATE),
                         result.getAdjustedWearPlate(), // 从 result 中获取
                         parameters,
-                        result
+                        result,
+                        result.getCarNum()
                 );
 
                 history.add(record);

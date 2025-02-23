@@ -12,7 +12,7 @@
         android:padding="16dp">
 
         <TextView
-            android:id="@+id/tvCarId"
+            android:id="@+id/tvCarNum"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="18sp"
@@ -22,7 +22,15 @@
             android:id="@+id/tvHeartPlate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/tvCarId"
+            android:layout_below="@id/tvCarNum"
+            android:layout_marginTop="8dp"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tvExtra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvHeartPlate"
             android:layout_marginTop="8dp"
             android:textSize="16sp"/>
 

@@ -15,18 +15,21 @@ public class HistoryRecord {
     private final double adjustedWearPlate;
     private final Map<String, Double> parameters;
     private final CalculationResult result;
+    private final String carNum;
 
     public HistoryRecord(long timestamp, String carId,
                          double adjustedHeartPlate,
                          double adjustedWearPlate,
                          Map<String, Double> parameters,
-                         CalculationResult result) {
+                         CalculationResult result,
+                         String carNum) {
         this.timestamp = timestamp;
         this.carId = carId;
         this.adjustedHeartPlate = adjustedHeartPlate;
         this.adjustedWearPlate = adjustedWearPlate;
         this.parameters = new HashMap<>(parameters);
         this.result = result;
+        this.carNum = carNum;
     }
 
     // 动态返回单位

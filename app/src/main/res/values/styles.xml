@@ -27,4 +27,14 @@
         <item name="android:textSize">16sp</item>
         <item name="android:elevation">2dp</item>
     </style>
+
+    <!-- styles.xml -->
+    <style name="Theme.HeightAdjustment" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- 继承MaterialComponents主题 -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- 保持其他原有主题设置... -->
+    </style>
+
 </resources>

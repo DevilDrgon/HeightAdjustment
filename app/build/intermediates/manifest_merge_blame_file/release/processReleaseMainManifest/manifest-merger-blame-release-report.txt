@@ -2,169 +2,174 @@
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
 3    package="com.kitolus.heightadjustment"
 4    android:versionCode="1"
-5    android:versionName="1.0" > <!-- 如果需要存储权限（根据DataUtils的实现决定） -->
-6    <!--
-7    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-8    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-9    -->
-10    <uses-sdk
-11        android:minSdkVersion="30"
-12        android:targetSdkVersion="35" />
-13
-14    <permission
-14-->[androidx.core:core:1.9.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\b4bff5c2ac36d46025beb1550c124ef3\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
-15        android:name="com.kitolus.heightadjustment.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-15-->[androidx.core:core:1.9.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\b4bff5c2ac36d46025beb1550c124ef3\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
-16        android:protectionLevel="signature" />
-16-->[androidx.core:core:1.9.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\b4bff5c2ac36d46025beb1550c124ef3\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
-17
-18    <uses-permission android:name="com.kitolus.heightadjustment.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-18-->[androidx.core:core:1.9.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\b4bff5c2ac36d46025beb1550c124ef3\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-18-->[androidx.core:core:1.9.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\b4bff5c2ac36d46025beb1550c124ef3\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
-19
-20    <application
-20-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:6:5-36:19
-21        android:allowBackup="true"
-21-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:7:9-35
-22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-22-->[androidx.core:core:1.9.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\b4bff5c2ac36d46025beb1550c124ef3\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
-23        android:extractNativeLibs="false"
-24        android:icon="@mipmap/ic_launcher"
-24-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:8:9-43
-25        android:label="@string/app_name"
-25-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:9:9-41
-26        android:roundIcon="@mipmap/ic_launcher_round"
-26-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:10:9-54
-27        android:supportsRtl="true"
-27-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:11:9-35
-28        android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
-28-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:12:9-67
-29
-30        <!-- 主Activity -->
-31        <activity
-31-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:16:9-23:20
-32            android:name="com.kitolus.heightadjustment.MainActivity"
-32-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:17:13-41
-33            android:exported="true" >
-33-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:18:13-36
-34            <intent-filter>
-34-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:19:13-22:29
-35                <action android:name="android.intent.action.MAIN" />
-35-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:20:17-69
-35-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:20:25-66
-36
-37                <category android:name="android.intent.category.LAUNCHER" />
-37-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:21:17-77
-37-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:21:27-74
-38            </intent-filter>
-39        </activity>
-40
-41        <!-- 历史记录Activity -->
-42        <activity
-42-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:26:9-34:20
-43            android:name="com.kitolus.heightadjustment.HistoryActivity"
-43-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:27:13-44
-44            android:exported="false"
-44-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:30:13-37
-45            android:label="@string/history_title"
-45-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:28:13-50
-46            android:parentActivityName="com.kitolus.heightadjustment.MainActivity" >
-46-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:29:13-55
-47            <meta-data
-47-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:31:13-33:49
-48                android:name="android.support.PARENT_ACTIVITY"
-48-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:32:17-63
-49                android:value=".MainActivity" />
-49-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:33:17-46
-50        </activity>
-51
-52        <service
-52-->[androidx.room:room-runtime:2.6.1] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\8ef9c582f638a89fdb9631a2e9a9d1d6\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
-53            android:name="androidx.room.MultiInstanceInvalidationService"
-53-->[androidx.room:room-runtime:2.6.1] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\8ef9c582f638a89fdb9631a2e9a9d1d6\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
-54            android:directBootAware="true"
-54-->[androidx.room:room-runtime:2.6.1] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\8ef9c582f638a89fdb9631a2e9a9d1d6\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
-55            android:exported="false" />
-55-->[androidx.room:room-runtime:2.6.1] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\8ef9c582f638a89fdb9631a2e9a9d1d6\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
-56
-57        <provider
-57-->[androidx.emoji2:emoji2:1.2.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\9ba28e730cdc0a3a74859b5dff98762f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-58            android:name="androidx.startup.InitializationProvider"
-58-->[androidx.emoji2:emoji2:1.2.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\9ba28e730cdc0a3a74859b5dff98762f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-59            android:authorities="com.kitolus.heightadjustment.androidx-startup"
-59-->[androidx.emoji2:emoji2:1.2.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\9ba28e730cdc0a3a74859b5dff98762f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-60            android:exported="false" >
-60-->[androidx.emoji2:emoji2:1.2.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\9ba28e730cdc0a3a74859b5dff98762f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-61            <meta-data
-61-->[androidx.emoji2:emoji2:1.2.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\9ba28e730cdc0a3a74859b5dff98762f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-62                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-62-->[androidx.emoji2:emoji2:1.2.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\9ba28e730cdc0a3a74859b5dff98762f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-63                android:value="androidx.startup" />
-63-->[androidx.emoji2:emoji2:1.2.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\9ba28e730cdc0a3a74859b5dff98762f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-64            <meta-data
-64-->[androidx.lifecycle:lifecycle-process:2.6.1] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\1e7bc6d2c53a8b8497ee1b9622c0094c\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
-65                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-65-->[androidx.lifecycle:lifecycle-process:2.6.1] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\1e7bc6d2c53a8b8497ee1b9622c0094c\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
-66                android:value="androidx.startup" />
-66-->[androidx.lifecycle:lifecycle-process:2.6.1] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\1e7bc6d2c53a8b8497ee1b9622c0094c\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
-67            <meta-data
-67-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
-68                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-68-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
-69                android:value="androidx.startup" />
-69-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
-70        </provider>
-71
-72        <uses-library
-72-->[androidx.window:window:1.0.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\fefb8ea1f8e48d6c6f776af29e861469\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
-73            android:name="androidx.window.extensions"
-73-->[androidx.window:window:1.0.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\fefb8ea1f8e48d6c6f776af29e861469\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
-74            android:required="false" />
-74-->[androidx.window:window:1.0.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\fefb8ea1f8e48d6c6f776af29e861469\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
-75        <uses-library
-75-->[androidx.window:window:1.0.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\fefb8ea1f8e48d6c6f776af29e861469\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
-76            android:name="androidx.window.sidecar"
-76-->[androidx.window:window:1.0.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\fefb8ea1f8e48d6c6f776af29e861469\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
-77            android:required="false" />
-77-->[androidx.window:window:1.0.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\fefb8ea1f8e48d6c6f776af29e861469\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
-78
-79        <receiver
-79-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
-80            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-80-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
-81            android:directBootAware="false"
-81-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
-82            android:enabled="true"
-82-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
-83            android:exported="true"
-83-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
-84            android:permission="android.permission.DUMP" >
-84-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
-85            <intent-filter>
-85-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
-86                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-86-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
-86-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
-87            </intent-filter>
-88            <intent-filter>
-88-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
-89                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-89-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
-89-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
-90            </intent-filter>
-91            <intent-filter>
-91-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
-92                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-92-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
-92-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
-93            </intent-filter>
-94            <intent-filter>
-94-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
-95                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-95-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
-95-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
-96            </intent-filter>
-97        </receiver>
-98    </application>
-99
-100</manifest>
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="30"
+9        android:targetSdkVersion="35" />
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\b4bff5c2ac36d46025beb1550c124ef3\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.kitolus.heightadjustment.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\b4bff5c2ac36d46025beb1550c124ef3\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\b4bff5c2ac36d46025beb1550c124ef3\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.kitolus.heightadjustment.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\b4bff5c2ac36d46025beb1550c124ef3\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\b4bff5c2ac36d46025beb1550c124ef3\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:6:5-41:19
+18        android:allowBackup="true"
+18-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:7:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\b4bff5c2ac36d46025beb1550c124ef3\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+20        android:extractNativeLibs="false"
+21        android:icon="@mipmap/ic_launcher"
+21-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:8:9-43
+22        android:label="@string/app_name"
+22-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:9:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:10:9-54
+24        android:supportsRtl="true"
+24-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:11:9-35
+25        android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+25-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:12:9-67
+26
+27        <!-- 主Activity -->
+28        <activity
+28-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:16:9-23:20
+29            android:name="com.kitolus.heightadjustment.activity.MainActivity"
+29-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:17:13-50
+30            android:exported="true" >
+30-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:18:13-36
+31            <intent-filter>
+31-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:19:13-22:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:20:17-69
+32-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:20:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:21:17-77
+34-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:21:27-74
+35            </intent-filter>
+36        </activity>
+37
+38        <!-- 原主界面 -->
+39        <activity
+39-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:26:9-28:40
+40            android:name="com.kitolus.heightadjustment.activity.CalculationActivity"
+40-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:27:13-57
+41            android:exported="false" />
+41-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:28:13-37
+42
+43        <!-- 历史记录Activity -->
+44        <activity
+44-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:31:9-39:20
+45            android:name="com.kitolus.heightadjustment.activity.HistoryActivity"
+45-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:32:13-53
+46            android:exported="false"
+46-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:35:13-37
+47            android:label="@string/history_title"
+47-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:33:13-50
+48            android:parentActivityName="com.kitolus.heightadjustment.activity.MainActivity" >
+48-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:34:13-64
+49            <meta-data
+49-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:36:13-38:58
+50                android:name="android.support.PARENT_ACTIVITY"
+50-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:37:17-63
+51                android:value=".activity.MainActivity" />
+51-->F:\HeightAdjustment\app\src\main\AndroidManifest.xml:38:17-55
+52        </activity>
+53
+54        <service
+54-->[androidx.room:room-runtime:2.6.1] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\8ef9c582f638a89fdb9631a2e9a9d1d6\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+55            android:name="androidx.room.MultiInstanceInvalidationService"
+55-->[androidx.room:room-runtime:2.6.1] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\8ef9c582f638a89fdb9631a2e9a9d1d6\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+56            android:directBootAware="true"
+56-->[androidx.room:room-runtime:2.6.1] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\8ef9c582f638a89fdb9631a2e9a9d1d6\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+57            android:exported="false" />
+57-->[androidx.room:room-runtime:2.6.1] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\8ef9c582f638a89fdb9631a2e9a9d1d6\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+58
+59        <provider
+59-->[androidx.emoji2:emoji2:1.2.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\9ba28e730cdc0a3a74859b5dff98762f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+60            android:name="androidx.startup.InitializationProvider"
+60-->[androidx.emoji2:emoji2:1.2.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\9ba28e730cdc0a3a74859b5dff98762f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+61            android:authorities="com.kitolus.heightadjustment.androidx-startup"
+61-->[androidx.emoji2:emoji2:1.2.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\9ba28e730cdc0a3a74859b5dff98762f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+62            android:exported="false" >
+62-->[androidx.emoji2:emoji2:1.2.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\9ba28e730cdc0a3a74859b5dff98762f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+63            <meta-data
+63-->[androidx.emoji2:emoji2:1.2.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\9ba28e730cdc0a3a74859b5dff98762f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+64-->[androidx.emoji2:emoji2:1.2.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\9ba28e730cdc0a3a74859b5dff98762f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+65                android:value="androidx.startup" />
+65-->[androidx.emoji2:emoji2:1.2.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\9ba28e730cdc0a3a74859b5dff98762f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.lifecycle:lifecycle-process:2.6.1] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\1e7bc6d2c53a8b8497ee1b9622c0094c\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+67-->[androidx.lifecycle:lifecycle-process:2.6.1] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\1e7bc6d2c53a8b8497ee1b9622c0094c\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+68                android:value="androidx.startup" />
+68-->[androidx.lifecycle:lifecycle-process:2.6.1] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\1e7bc6d2c53a8b8497ee1b9622c0094c\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+69            <meta-data
+69-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+70                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+70-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+71                android:value="androidx.startup" />
+71-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+72        </provider>
+73
+74        <uses-library
+74-->[androidx.window:window:1.0.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\fefb8ea1f8e48d6c6f776af29e861469\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+75            android:name="androidx.window.extensions"
+75-->[androidx.window:window:1.0.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\fefb8ea1f8e48d6c6f776af29e861469\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+76            android:required="false" />
+76-->[androidx.window:window:1.0.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\fefb8ea1f8e48d6c6f776af29e861469\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+77        <uses-library
+77-->[androidx.window:window:1.0.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\fefb8ea1f8e48d6c6f776af29e861469\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+78            android:name="androidx.window.sidecar"
+78-->[androidx.window:window:1.0.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\fefb8ea1f8e48d6c6f776af29e861469\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+79            android:required="false" />
+79-->[androidx.window:window:1.0.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\fefb8ea1f8e48d6c6f776af29e861469\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+80
+81        <receiver
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+82            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+82-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+83            android:directBootAware="false"
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+84            android:enabled="true"
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+85            android:exported="true"
+85-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+86            android:permission="android.permission.DUMP" >
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+87            <intent-filter>
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+88                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+89            </intent-filter>
+90            <intent-filter>
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+91                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+92            </intent-filter>
+93            <intent-filter>
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+94                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+95            </intent-filter>
+96            <intent-filter>
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+97                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\d264ffd271f0030674f560b8a1a7a8c5\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+98            </intent-filter>
+99        </receiver>
+100    </application>
+101
+102</manifest>

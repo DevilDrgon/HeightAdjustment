@@ -50,12 +50,17 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.ViewHold
         HistoryRecord record = history.get(position);
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm", Locale.getDefault());
 
-        holder.tvCarId.setText(record.getCarId());
+        holder.tvCarNum.setText(record.getCarNum());
 
         // 固定显示格式
         holder.tvHeartPlate.setText(String.format(Locale.getDefault(),
-                "调整量: %.1f mm",  // 直接使用固定单位
+                "心盘调整量: %.1f mm",  // 直接使用固定单位
                 record.getAdjustedHeartPlate()
+        ));
+
+        holder.tvExtra.setText(String.format(Locale.getDefault(),
+                "额外修正量: %.1f mm",  // 直接使用固定单位
+                record.getResult().getExtraAdjustedWearPlate()
         ));
 
         holder.tvTimestamp.setText(sdf.format(record.getTimestamp()));
@@ -78,15 +83,16 @@ public class HistoryAdapter extends RecyclerView.Adapter<HistoryAdapter.ViewHold
     }
 
     static class ViewHolder extends RecyclerView.ViewHolder {
-        TextView tvCarId, tvHeartPlate, tvTimestamp;
+        TextView tvCarNum, tvHeartPlate, tvTimestamp ,tvExtra;
         ImageButton btnDelete;
 
         ViewHolder(View itemView) {
             super(itemView);
-            tvCarId = itemView.findViewById(R.id.tvCarId);
+            tvCarNum = itemView.findViewById(R.id.tvCarNum);
             tvHeartPlate = itemView.findViewById(R.id.tvHeartPlate);
             tvTimestamp = itemView.findViewById(R.id.tvTimestamp);
             btnDelete = itemView.findViewById(R.id.btnDelete);
+            tvExtra = itemView.findViewById(R.id.tvExtra);
         }
     }
 }
