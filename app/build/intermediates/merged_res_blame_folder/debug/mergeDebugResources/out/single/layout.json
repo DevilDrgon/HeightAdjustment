@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.kitolus.heightadjustment.app-mergeDebugResources-3:/layout/activity_history.xml",
+        "source": "com.kitolus.heightadjustment.app-main-6:/layout/activity_history.xml"
+    },
+    {
+        "merged": "com.kitolus.heightadjustment.app-mergeDebugResources-3:/layout/item_history.xml",
+        "source": "com.kitolus.heightadjustment.app-main-6:/layout/item_history.xml"
+    },
+    {
+        "merged": "com.kitolus.heightadjustment.app-mergeDebugResources-3:/layout/activity_main.xml",
+        "source": "com.kitolus.heightadjustment.app-main-6:/layout/activity_main.xml"
+    }
+]

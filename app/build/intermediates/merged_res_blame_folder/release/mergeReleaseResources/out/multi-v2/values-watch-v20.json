@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.kitolus.heightadjustment.app-mergeReleaseResources-2:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "H:\\download\\gradle-8.6-bin\\gradle-8.6\\repository\\caches\\8.10.2\\transforms\\2ad2e02cb94d14ba26a70bd0a42661b0\\transformed\\appcompat-1.6.1\\res\\values-watch-v20\\values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}
