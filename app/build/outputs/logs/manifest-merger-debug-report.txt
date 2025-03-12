@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\HeightAdjustment\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from F:\HeightAdjustment\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from F:\HeightAdjustment\app\src\main\AndroidManifest.xml:2:1-44:12
-INJECTED from F:\HeightAdjustment\app\src\main\AndroidManifest.xml:2:1-44:12
+ADDED from F:\HeightAdjustment\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from F:\HeightAdjustment\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from F:\HeightAdjustment\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from F:\HeightAdjustment\app\src\main\AndroidManifest.xml:2:1-38:12
 MERGED from [androidx.databinding:viewbinding:8.8.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\3d01d1d090ec18c6ce06053fc2fe1f56\transformed\viewbinding-8.8.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-common:2.6.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\709a1a2132a963a1309c081175aa1f06\transformed\navigation-common-2.6.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-runtime:2.6.0] H:\download\gradle-8.6-bin\gradle-8.6\repository\caches\8.10.2\transforms\69b27d4191e463ca6574bc49e1cafdfd\transformed\navigation-runtime-2.6.0\AndroidManifest.xml:17:1-22:12
@@ -115,12 +115,12 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] H:\download\gradle-8.6-bin\
 		ADDED from F:\HeightAdjustment\app\src\main\AndroidManifest.xml:7:9-35
 	android:theme
 		ADDED from F:\HeightAdjustment\app\src\main\AndroidManifest.xml:12:9-67
-activity#com.kitolus.heightadjustment.MainActivity
+activity#com.kitolus.heightadjustment.activity.MainActivity
 ADDED from F:\HeightAdjustment\app\src\main\AndroidManifest.xml:16:9-23:20
 	android:exported
 		ADDED from F:\HeightAdjustment\app\src\main\AndroidManifest.xml:18:13-36
 	android:name
-		ADDED from F:\HeightAdjustment\app\src\main\AndroidManifest.xml:17:13-41
+		ADDED from F:\HeightAdjustment\app\src\main\AndroidManifest.xml:17:13-50
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from F:\HeightAdjustment\app\src\main\AndroidManifest.xml:19:13-22:29
 action#android.intent.action.MAIN
@@ -131,20 +131,20 @@ category#android.intent.category.LAUNCHER
 ADDED from F:\HeightAdjustment\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
 		ADDED from F:\HeightAdjustment\app\src\main\AndroidManifest.xml:21:27-74
-activity#com.kitolus.heightadjustment.HistoryActivity
+activity#com.kitolus.heightadjustment.activity.HistoryActivity
 ADDED from F:\HeightAdjustment\app\src\main\AndroidManifest.xml:26:9-34:20
 	android:parentActivityName
-		ADDED from F:\HeightAdjustment\app\src\main\AndroidManifest.xml:29:13-55
+		ADDED from F:\HeightAdjustment\app\src\main\AndroidManifest.xml:29:13-64
 	android:label
 		ADDED from F:\HeightAdjustment\app\src\main\AndroidManifest.xml:28:13-50
 	android:exported
 		ADDED from F:\HeightAdjustment\app\src\main\AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from F:\HeightAdjustment\app\src\main\AndroidManifest.xml:27:13-44
+		ADDED from F:\HeightAdjustment\app\src\main\AndroidManifest.xml:27:13-53
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from F:\HeightAdjustment\app\src\main\AndroidManifest.xml:31:13-33:49
+ADDED from F:\HeightAdjustment\app\src\main\AndroidManifest.xml:31:13-33:58
 	android:value
-		ADDED from F:\HeightAdjustment\app\src\main\AndroidManifest.xml:33:17-46
+		ADDED from F:\HeightAdjustment\app\src\main\AndroidManifest.xml:33:17-55
 	android:name
 		ADDED from F:\HeightAdjustment\app\src\main\AndroidManifest.xml:32:17-63
 uses-sdk
